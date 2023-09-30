@@ -4,7 +4,7 @@ In this challenge, participants are provided with ciphertext and tasked with enc
 and the name of the challenge indicates that it’s xor encoded as well
   
 so we start by writing a simple python code to decode the message.
-First we decode the base64 message then we try to brute force the xor encryption key as there is only 255 possible key
+First we decode the base64 message then we try to brute force the xor encryption key as there is only 255 possible keys
 
 import pwn
 
