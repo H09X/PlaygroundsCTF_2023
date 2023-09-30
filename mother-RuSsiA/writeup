@@ -1,9 +1,12 @@
-Description: Russia, the icy wonderland where redstone circuits and secret chambers guard the most precious treasures. Now, a mysterious small n has been discovered, concealing a hidden message. Can you mine your way through the cryptographic labyrinth to unearth its secrets
+Description:
+Russia, the icy wonderland where redstone circuits and secret chambers guard the most precious treasures.
+Now, a mysterious small n has been discovered, concealing a hidden message.
+Can you mine your way through the cryptographic labyrinth to unearth its secrets
 
-From the name of the challenge and the script we are provided with we know that’s it’s a basic rsa challenge with a small n.
+From the name of the challenge and the script we are provided with we know that it’s a basic rsa challenge with a small n.
 Small n in rsa is very dangerous as we can find the factors of n and then find phi and d to decrypt the ciphertext
 There are 2 ways to solve the challenge:
-1-Find the factors of n(p,q) then calculate phi and d using tools like: http://factordb.com
+1-Find the factors of n (p,q) then calculate phi and d using tools like: http://factordb.com
 2-Find phi without needing to find the factors using a tool like: https://www.alpertron.com.ar/ECM.HTM
 Personally, I prefer the second as it is faster.
 Using the tool we get:
