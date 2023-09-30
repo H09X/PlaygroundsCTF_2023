@@ -1,0 +1,15 @@
+Description: Assemble the mysterious message hidden within the code.
+We are provided with 1 line of c code
+int main(){  int VWlkfGJ3an;  BrYXZGUUN+(TTUxXVo0dl);  return 0;}int pnYDJxQHda(int Mk1kS1pfbG){  return RhdnF3eA==^5;}
+and the description indicates that there is a hidden message in this code.
+Looking at this code we notice some really weird strings and they all have 1 thing in common 
+The length of all the strings is 20 
+So we assemble these strings to see what we get:
+VWlkfGJ3anBrYXZGUUN+TTUxXVo0dlpnYDJxQHdaMk1kS1pfbGRhdnF3eA==
+Looks like a base64 to me but let’s try to use a tool like cyberchef to make sure.
+Cyberchef confirms it’s a base64 but when we try to decode we get unreadable text lets look at the code again maybe me missed something
+
+If we remove the weird strings from the code the only thing remaining is ^5 which indicates that the message is xored with x 
+Lets try to xor the decoded base64 message 5.
+We get the flag: 
+PlaygroundsCTF{H04X_1s_be7tEr_7HaN_Ziadstr}
