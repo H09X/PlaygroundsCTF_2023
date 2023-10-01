@@ -1,10 +1,10 @@
-### chalenge description: 
+### challenge description: 
 decipher the mysterious Minecraft glyphs, and unveil the strings they guard.
 
 ---
 ### solution
 
-In this challenge, participants are provided with ciphertext and tasked with encoding it. Looking at the ciphertext which looks like its base64 encoded message. 
+In this challenge, participants are provided with ciphertext and tasked with decoding it. Looking at the ciphertext which looks like its base64 encoded message. 
 and the name of the challenge indicates that it’s xor encoded as well
   
 so we start by writing a simple python code to decode the message.
