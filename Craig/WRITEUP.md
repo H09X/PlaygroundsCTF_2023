@@ -168,8 +168,8 @@ Main Function After:
 
 2) Remember as mentioned above, the ```clear``` command is called on the output. So we need to run the binary as follows: 
 ```bash
-┌──(mindflayer02㉿mindflayer02)-[~]
-└─$ ./Hox > ct.txt
+┌──(H04X㉿M0tH3r5h1P)-[~]
+└─$ ./Craig > ct.txt
 meh1
 meh2
 ```
