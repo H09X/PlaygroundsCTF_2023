@@ -200,6 +200,16 @@ RcagmtfuvjuTTN{BgI$E_zkXvr5M}
 Patching detected
 Nice try     
 ```
+***NOTE*** An alternative way to bypass the clear would be 
+
+```bash
+┌──(H04X㉿M0tH3r5h1P)-[~]
+└─$ sudo chmod -x /usr/bin/clear
+
+┌──(H04X㉿M0tH3r5h1P)-[~]
+└─$ ./Craig
+```
+
 
 4) From the hint provided in the poem (Blaise) - the encryption used here is the Vigenere Cipher. Using [dcode](https://www.dcode.fr/vigenere-cipher) we can decrypt and get the flag: ```PlaygroundsCTF{VeR$E_reVer5E}```
 
