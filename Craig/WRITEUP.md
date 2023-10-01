@@ -1,4 +1,4 @@
-## Challenge - Craig [Rev/Crypto]
+## Challenge - Craig [Rev]
 
 ### Description
 
