@@ -15,9 +15,13 @@ There are 2 ways to solve the challenge:
 2)Find phi without needing to find the factors using a tool like: https://www.alpertron.com.ar/ECM.HTM
 Personally, I prefer the second as it is faster.
 Using the tool we get:
+
 ```Phi = 16612382709255864090302277633184939233723254429014068302985001384015822848000```
+
 Then we can find d easily using 
+
 ```d = Pow(e,-1,phi)```
+
 now we have everything we need to decrypt the message so we write a python script.
 
 ```
