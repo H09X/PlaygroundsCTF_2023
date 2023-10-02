@@ -154,7 +154,7 @@ Clearly this outputs the encrypted flag. We need to somehow bypass the checks to
 
 1) We can patch the binary to bypass the checks given in the main function. 
 
-Fire up ida, and patch the program as shown below. 
+Fire up ida (or ghidra), and patch the program as shown below. 
 
 Main Function Before: 
 
